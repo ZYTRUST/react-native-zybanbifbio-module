@@ -1,0 +1,31 @@
+{
+    "name": "react-native-zybanbifbio-module",
+    "version": "0.1.0",
+    "description": "libreria biometrica para BANBIF",
+    "scripts":
+    {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords":
+    [
+        "react-native",
+        "ios",
+        "android"
+    ],
+    "repository":
+    {
+        "type": "git",
+        "url": "git+https://github.com/ZYTRUST/react-native-zybanbifbio-module.git"
+    },
+    "author": "Iván Cáceres <ztmobile@zytrust.com> (https://github.com/ZYTRUST)",
+    "license": "MIT",
+    "bugs":
+    {
+        "url": "https://github.com/ZYTRUST/react-native-zybanbifbio-module/issues"
+    },
+    "homepage": "https://www.zytrust.com",
+    "publishConfig":
+    {
+        "access": "public"
+    }
+}
