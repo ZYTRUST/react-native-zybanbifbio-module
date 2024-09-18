@@ -1,0 +1,12 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zybanbifbiomodule" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <application android:allowBackup="true" >
+7-->/Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:3:9-5:23
+7-->/Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:4:9-35
+8    </application>
+9
+10</manifest>

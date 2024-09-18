@@ -1,7 +1,7 @@
 {
     "name": "react-native-zybanbifbio-module",
-    "version": "0.1.0",
-    "description": "libreria biometrica para BANBIF",
+    "version": "0.1.1",
+    "description": "bio banbif",
     "scripts":
     {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
     {
         "url": "https://github.com/ZYTRUST/react-native-zybanbifbio-module/issues"
     },
-    "homepage": "https://www.zytrust.com",
+    "homepage": "www.zytrust.com",
     "publishConfig":
     {
         "access": "public"

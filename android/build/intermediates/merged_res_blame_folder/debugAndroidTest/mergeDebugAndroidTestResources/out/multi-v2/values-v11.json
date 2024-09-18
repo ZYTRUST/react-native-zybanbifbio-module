@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zybanbifbiomodule.test.react-native-zybanbifbio-module-mergeDebugAndroidTestResources-43:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/zytrust/.gradle/caches/8.8/transforms/a126587aad7be2b3b01d526700b1f9f7/transformed/smartFace-4.32.1/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "138"
+                    }
+                }
+            ]
+        }
+    ]
+}

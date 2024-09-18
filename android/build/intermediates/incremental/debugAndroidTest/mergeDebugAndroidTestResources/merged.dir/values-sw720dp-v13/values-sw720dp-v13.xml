@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_animation">50dp</dimen>
+    <dimen name="reg_left_hand_id_height">658dp</dimen>
+    <dimen name="reg_left_hand_id_width">604dp</dimen>
+    <dimen name="reg_left_hand_pass_height">630dp</dimen>
+    <dimen name="reg_left_hand_pass_width">562dp</dimen>
+    <dimen name="reg_left_hand_usa_height">620dp</dimen>
+    <dimen name="reg_left_hand_usa_width">566dp</dimen>
+    <dimen name="reg_right_hand_height">658dp</dimen>
+    <dimen name="reg_right_hand_width">496dp</dimen>
+</resources>

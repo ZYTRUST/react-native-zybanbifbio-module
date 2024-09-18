@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zybanbifbiomodule.test.react-native-zybanbifbio-module-mergeDebugAndroidTestResources-43:/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/zytrust/.gradle/caches/8.8/transforms/9b5df195abf1016a7f6ba14fc07565ca/transformed/api-7.4.10090/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,159,214,272,329,386,442,496",
+                        "endColumns": "47,55,54,57,56,56,55,53,52",
+                        "endOffsets": "98,154,209,267,324,381,437,491,544"
+                    }
+                }
+            ]
+        }
+    ]
+}

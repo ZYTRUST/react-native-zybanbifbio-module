@@ -1,6 +1,8 @@
 # react-native-zybanbifbio-module
 
-Libreria Biometrica BB --
+Libreria la cual es encargada de verificación biométrica de personas peruanas.
+Esta libreria esta diseñada especificamente para le empresa 11.
+
 
 ## Installation
 
@@ -9,7 +11,6 @@ npm install react-native-zybanbifbio-module
 ```
 
 ## Usage
-
 
 ```js
  import {  NativeModules } from 'react-native';
@@ -25,25 +26,37 @@ npm install react-native-zybanbifbio-module
                            "POC" //URL - POC , DEVX , SIGN
                        )
                        .then(result => {
-                                    //this.setState({ coError: result.coError });
-                                    //this.setState({ deError: result.deError });
-                                    //this.setState({ coErrorButton: result.coErrorButton });
-                                    //this.setState({ deErrorButton: result.deErrorButton });
-                                    //this.setState({ idSolicitud: result.idSolicitud });
                                     
                        })
 
+//..
 
+//para mas información revisar el documento de especificación.
 ```
 
 
 ## Contributing
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+- Elaborado por Iván A. Cáceres Z.
+
+- Compañia ZyTrust S.A. Perú
+
 
 ## License
 
-MIT
+ZyTrust S.A. Perú
+
+
+## Contact
+
+- Webpage: https://www.zytrust.com/
+
+- Oficina: Av. Arenales 1912, oficina 1102 Lince. Lima, Perú.
+
+- Teléfono: +51 1 321 4444 || (+51) 974 260 111
+
+- Email: info@zytrust.com || support@zytrust.com || ztmobile@zytrust.com
+
 
 ---
 

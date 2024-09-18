@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="mb_blinkid_back_instructions">Escanea la parte de atrás del documento</string>
+    <string name="mb_blinkid_camera_flip_document" ns1:ignore="ExtraTranslation">Dele la vuelta al documento</string>
+    <string name="mb_blinkid_front_instructions">Escanea la parte frontal\n del documento</string>
+</resources>
