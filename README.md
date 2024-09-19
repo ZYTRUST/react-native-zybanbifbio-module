@@ -17,17 +17,17 @@ npm install react-native-zybanbifbio-module
 
 // ...
 
-                       NativeModules.ZyBanbifBioRn.validacionFacialOcr(
-                           "1", // tipo Documento : DNI: 1
-                           "0000000", // Numero de documento
-                           "abcdef123456", // token
-                           "PE", // Pais
-                           "FULL", // tipo operacion "FULL" o "FACIAL"
-                           "POC" //URL - POC , DEVX , SIGN
-                       )
-                       .then(result => {
-                                    
-                       })
+    NativeModules.ZyBanbifBioRn.validacionFacialOcr(
+        "1", // tipo Documento : DNI: 1
+        "0000000", // Numero de documento
+        "abcdef123456", // token
+        "PE", // Pais
+        "FULL", // tipo operacion "FULL" o "FACIAL"
+        "POC" //URL - POC , DEVX , SIGN
+    )
+    .then(result => {
+                                
+    })
 
 //..
 
