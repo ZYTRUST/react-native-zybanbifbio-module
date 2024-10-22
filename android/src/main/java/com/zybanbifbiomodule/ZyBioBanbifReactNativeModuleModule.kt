@@ -5,12 +5,17 @@ import com.facebook.react.bridge.Promise
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
+import com.facebook.react.bridge.ReadableMap
 import com.facebook.react.bridge.WritableMap
 import com.facebook.react.bridge.WritableNativeMap
+import com.google.gson.Gson
 import com.zy.banbif.android.lib.sdk.validacionfacial.api.IZyApiCapturaFacial
 import com.zy.banbif.android.lib.sdk.validacionfacial.api.ZyApiCapturaFacial
 import com.zy.banbif.android.lib.sdk.validacionfacial.api.ZyRequest
 import com.zy.banbif.android.lib.sdk.validacionfacial.api.ZyResponse
+import com.zy.banbif.android.lib.sdk.validacionfacial.api.bean.visual.ScreenEnum
+import com.zy.banbif.android.lib.sdk.validacionfacial.api.bean.visual.Stepper
+import com.zy.banbif.android.lib.sdk.validacionfacial.api.bean.visual.VisualScreenError
 
 
 class ZyBioBanbifReactNativeModuleModule(reactContext: ReactApplicationContext) :
@@ -24,19 +29,48 @@ class ZyBioBanbifReactNativeModuleModule(reactContext: ReactApplicationContext) 
   }
 
   @ReactMethod
-  fun validacionFacialOcr(tiDocumento: String,
-                          nuDocumento: String,
-                          accessToken: String,
-                          bioPais: String,
-                          tiOperacion: String,
-                          urlSource: String, promise: Promise) {
+  fun validacionFacialOcr(opcional: ReadableMap,
+                          promise: Promise) {
+    val gson = Gson()
+    val opcionalJson = gson.toJson(opcional.toHashMap())
+    val opcionalData = gson.fromJson(opcionalJson, com.zybanbifbiomodule.bean.Opcional::class.java)
     val zyRequestApi: ZyRequest = ZyRequest()
-    zyRequestApi.bioTiDoc = tiDocumento
-    zyRequestApi.bioNuDoc = nuDocumento
-    zyRequestApi.token = accessToken
-    zyRequestApi.bioPais = bioPais
-    zyRequestApi.bioOperacion = tiOperacion
-    zyRequestApi.url = urlSource
+
+    zyRequestApi.bioTiDoc = opcionalData.tiDocumento
+    zyRequestApi.bioNuDoc = opcionalData.nuDocumento
+    zyRequestApi.token = opcionalData.accessToken
+    zyRequestApi.bioPais = opcionalData.bioPais
+    zyRequestApi.bioOperacion = opcionalData.tiOperacion
+    zyRequestApi.url = opcionalData.urlSource
+    zyRequestApi.stepper = Stepper(opcionalData.stepper.nuPasos,opcionalData.stepper.pasoActual)
+
+    val vsList: MutableList<VisualScreenError> = ArrayList()
+    vsList.add(
+      VisualScreenError(
+        opcionalData.errores.reintentar.titulo,
+        opcionalData.errores.reintentar.descripcion,
+        opcionalData.errores.reintentar.textoBoton,
+        ScreenEnum.REINTENTAR
+      )
+    )
+    vsList.add(
+      VisualScreenError(
+        opcionalData.errores.limite_tiempo_alcanzado.titulo,
+        opcionalData.errores.limite_tiempo_alcanzado.descripcion,
+        opcionalData.errores.limite_tiempo_alcanzado.textoBoton,
+        ScreenEnum.LIMITE_TIEMPO_ALZANZADO
+      )
+    )
+    vsList.add(
+      VisualScreenError(
+        opcionalData.errores.limite_intentos_alcanzado.titulo,
+        opcionalData.errores.limite_intentos_alcanzado.descripcion,
+        opcionalData.errores.limite_intentos_alcanzado.textoBoton,
+        ScreenEnum.LIMITE_INTENTOS_ALCANZADO
+      )
+    )
+
+    zyRequestApi.errores = vsList
 
     Log.i(TAG, "calling validacionFacialOcr")
     Log.i(TAG, "nuDocumento:" + zyRequestApi.bioTiDoc)
@@ -110,6 +144,9 @@ class ZyBioBanbifReactNativeModuleModule(reactContext: ReactApplicationContext) 
     zyRequest.bioOperacion = zyRequestApi?.bioOperacion ?: "FULL"
     zyRequest.isDialogActivated = true
     zyRequest.url = zyRequestApi?.url ?: "POC"
+    zyRequest.stepper = zyRequestApi?.stepper
+    zyRequest.errores = zyRequestApi?.errores
+
     iZyApiCapturaFacial.zyCapturaFacial(zyRequest)
 
   }
