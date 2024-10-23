@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ZYTRUST/react-native-zybanbifbio-module.git", :tag => "#{s.version}" }
   s.source_files  = "ios/*.{h,m,mm}"
 
-  s.dependency 'zy_banbif_bio_lib_ios', '0.2.5' 
+  s.dependency 'zy_banbif_bio_lib_ios', '1.0.5'
   s.dependency 'React'
 
 end

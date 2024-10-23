@@ -1,0 +1,21 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:2:3-34
+		INJECTED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:4:3-57
+	android:allowBackup
+		ADDED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml:4:16-42
+uses-sdk
+INJECTED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml
+INJECTED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zytrust/Proyectos/cliente/banbif/react/lib/react-native-zybanbifbio-module/TestBanbif/node_modules/react-native-zybanbifbio-module/android/src/main/AndroidManifest.xml
