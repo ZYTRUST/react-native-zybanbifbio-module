@@ -1,15 +1,20 @@
 # react-native-zybanbifbio-module
 
 Libreria la cual es encargada de verificación biométrica de personas peruanas.
-Esta libreria esta diseñada especificamente para le empresa 11.
+Esta libreria esta diseñada especificamente para le empresa 11 poc. 
 
 ## Anotaciones
--iOS: version para iOS fue compilada con XCODE 16.0, es decir que el preoyecto debe utilizar XCODE 16.0 o superior , ademas el tarjet minimo es ios 13.0
--Android: version minima de android es 22, version compilada con compileSDK 34, se recomienda usar compileSDK 34 o superior
+
+### iOS: version para iOS fue compilada con XCODE 15.4, es decir que el preoyecto debe utilizar XCODE 15.4 o superior , ademas el tarjet minimo es ios 13.0
+### Android: version minima de android es 22, version compilada con compileSDK 34, se recomienda usar compileSDK 34 o superior
 
 ## NOTAS:
--La versión 0.4.0 o superior usa la nueva estructurá en el request -> opciones 
+```
+La versión 0.4.0 o superior usa la nueva estructurá en el request -> opciones 
+```
+```
 ejm. NativeModules.ZyBanbifBioRn.validacionFacialOcr(opciones).then(result => {})
+```
 
 
 ## Installation
