@@ -15,7 +15,11 @@ La versión 0.4.0 o superior usa la nueva estructurá en el request -> opciones
 ```
 ejm. NativeModules.ZyBanbifBioRn.validacionFacialOcr(opciones).then(result => {})
 ```
+```
+Homologación de codigo de retorno cuando no se tienen permisos otorgados
+-Retorna Código 9101:Permisos no otorgados cuando el usuario seleciona "No Permitir" en iOS y "Denegar" en Android.
 
+```
 
 ## Installation
 
