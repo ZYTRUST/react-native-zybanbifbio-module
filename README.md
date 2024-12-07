@@ -10,16 +10,10 @@ Esta libreria esta diseñada especificamente para le empresa 11 poc.
 
 ## NOTAS:
 ```
-La versión 0.4.0 o superior usa la nueva estructurá en el request -> opciones 
+La versión 0.5.0 versión productiva para Emps11
+ 
 ```
-```
-ejm. NativeModules.ZyBanbifBioRn.validacionFacialOcr(opciones).then(result => {})
-```
-```
-Homologación de codigo de retorno cuando no se tienen permisos otorgados
--Retorna Código 9101:Permisos no otorgados cuando el usuario seleciona "No Permitir" en iOS y "Denegar" en Android.
 
-```
 
 ## Installation
 
