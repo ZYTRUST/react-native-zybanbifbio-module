@@ -10,7 +10,7 @@ Esta libreria esta diseñada especificamente para le empresa 11 poc.
 
 ## NOTAS:
 ```
-La versión 0.5.0 versión productiva para Emps11
+La versión 0.5.1 versión productiva para Emps11
  
 ```
 
