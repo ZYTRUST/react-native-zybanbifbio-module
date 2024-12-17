@@ -105,7 +105,7 @@ dependencies {
   }
   implementation(group: 'com.zy.regula.sdk', name: 'capturaDocumento', version: '1.4.0', ext: 'aar')
 
-  implementation(group: 'com.zy.banbif.android.lib.sdk', name: 'validacionfacial', version: '5.5.1', ext: 'aar')
+  implementation(group: 'com.zy.banbif.android.lib.sdk', name: 'validacionfacial', version: '5.5.2', ext: 'aar')
 
   implementation 'net.zetetic:android-database-sqlcipher:4.5.3'
   implementation 'org.apache.commons:commons-imaging:1.0-alpha2'
