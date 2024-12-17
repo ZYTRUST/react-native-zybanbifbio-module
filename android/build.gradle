@@ -114,7 +114,7 @@ dependencies {
     implementation('com.regula.documentreader:api:7.4.10090') {
         transitive = true;
     }*/
-  implementation(group: 'com.zy.android.lib.bio.facial.api', name: 'facial', version: '1.8.15', ext: 'aar'){
+  implementation(group: 'com.zy.regula.sdk', name: 'capturaDocumento', version: '1.4.1', ext: 'aar'){
     transitive = true
   }
   
