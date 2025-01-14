@@ -10,10 +10,13 @@ Esta libreria esta diseñada especificamente para le empresa 11 poc.
 
 ## NOTAS:
 ```
-La versión >0.5.3 versión productiva para Emps11
+La versión >0.5.8 versión productiva para Emps11
  
 ```
-
+```
+La versión >0.5.8 retorna los codigos 8270": Intentos superados solicitud bloqueada o "9041":Intentos superados DNI BLoqueado directamente sin pasar por el UI
+ 
+```
 
 ## Installation
 
