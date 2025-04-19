@@ -2,21 +2,6 @@
   xmlns:tools="http://schemas.android.com/tools"
   package="com.zybanbifbiomodule">
 
-  <application android:allowBackup="true">
-    <provider
-      android:name="com.morpho.mph_bio_sdk.android.sdk.content_provider.BioStoreProvider"
-      android:authorities="${applicationId}.bio_store"
-      android:readPermission="${applicationId}.NEW_READ_MPH_BIO_SDK_PROVIDER"
-      android:writePermission="${applicationId}.NEW_WRITE_MPH_BIO_SDK_PROVIDER"
-      tools:replace="android:authorities, android:readPermission, android:writePermission" />
 
-    <provider
-      android:name="com.morpho.lkms.android.sdk.lkms_core.content_provider.LkmsStoreProvider"
-      android:authorities="${applicationId}.lkms"
-      android:readPermission="${applicationId}.NEW_READ_LKMS_LICENSE_PROVIDER"
-      android:writePermission="${applicationId}.NEW_WRITE_LKMS_LICENSE_PROVIDER"
-      tools:replace="android:authorities, android:readPermission, android:writePermission" />
-
-  </application>
 
 </manifest>
