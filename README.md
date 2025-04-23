@@ -7,14 +7,15 @@ Esta libreria esta diseñada especificamente para le empresa 11 poc.
 
 ### iOS: version para iOS fue compilada con XCODE 15.4, es decir que el preoyecto debe utilizar XCODE 15.4 o superior , ademas el tarjet minimo es ios 13.0
 ### Android: version minima de android es 22, version compilada con compileSDK 34, se recomienda usar compileSDK 34 o superior
+### MOVIL: Libreria solo será valida apartir de la version 0.6.2
 
 ## NOTAS:
 ```
-La versión >0.5.8 versión productiva para Emps11
+La versión >0.6.2 versión productiva para Emps11
  
 ```
 ```
-La versión >0.5.8 retorna los codigos 8270": Intentos superados solicitud bloqueada o "9041":Intentos superados DNI BLoqueado directamente sin pasar por el UI
+La versión >0.6.2 retorna los codigos 8270": Intentos superados solicitud bloqueada o "9041":Intentos superados DNI BLoqueado directamente sin pasar por el UI
  
 ```
 
