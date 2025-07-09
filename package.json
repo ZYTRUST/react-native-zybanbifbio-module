@@ -1,11 +1,10 @@
 {
     "name": "react-native-zybanbifbio-module",
-    "version": "0.8.4",
+    "version": "0.7.2",
     "description": "bio banbif",
     "scripts":
     {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "postinstall": "node ./scripts/postinstall.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords":
     [
